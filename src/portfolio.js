@@ -14,10 +14,9 @@ const greeting = {
   logo_name: "sagar.p()",
   nickname: "sagar",
   full_name: "Sagar Pawar",
-  subTitle:
-    "Software Developer, Open Source Enthusiast 🔥. Always learning.",
+  subTitle: "Software Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+    "https://docs.google.com/document/d/1j_UhtgJ52JwaOoBTqwRFuwdXnFCD03iBLRTCBZcCLaQ/edit?usp=sharing",
   mail: "mailto:spawar097@gmail.com",
 };
 
@@ -29,7 +28,7 @@ const socialMediaLinks = {
   gitlab: "",
   facebook: "",
   twitter: "",
-  instagram: "https://www.instagram.com/sagar.pawar097/",
+  instagram: "https://www.instagram.com/sagar.pawar97/",
 };
 
 const skills = {
@@ -38,11 +37,10 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+        "⚡ Develop highly interactive Front end / User Interfaces for your web applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Creating application backend in Node, Express",
+        "⚡ Published own npm packages for reusable components",
       ],
       softwareSkills: [
         {
@@ -93,6 +91,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:atom",
+          style: {
+            color: "#7247b5",
           },
         },
         // {
@@ -212,13 +217,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
           skillName: "Netlify",
           fontAwesomeClassname: "simple-icons:netlify",
           style: {
@@ -253,20 +251,6 @@ const skills = {
             color: "#47A248",
           },
         },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
-          },
-        },
       ],
     },
   ],
@@ -275,31 +259,33 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
+      title: "Vishwakarma Institute of Information Technology",
       subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
+      logo_path: "viit.png",
+      alt_name: "VIIT",
+      duration: "2015 - 2018",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
+        "⚡ I've done my bachelors in Information Technology.",
+        "⚡ Secured 8th Rank in Departement",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://www.viit.ac.in/",
     },
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      title: "MGM Polytechnic",
+      subtitle: "Diploma in Computer Engineering",
+      logo_path: "mgmpoly.png",
+      alt_name: "MGM Poly",
+      duration: "2012 - 2015",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have studied core subjects like Data Structures, DBMS, C, OOPs etc.",
+        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Secured 1st Rank in Departement",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://www.mgmpoly.com/",
     },
   ],
 };
@@ -307,71 +293,24 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
+      title: "React-The-Complete-Guide",
+      subtitle: "React-Guide",
+      logo_path: "react.png",
+      certificate_link: "",
+      alt_name: "React-Guide",
       // color_code: "#2AAFED",
-      color_code: "#47A048",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
       color_code: "#2AAFED",
     },
     {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
+      title: "TESTDOME",
+      subtitle: "testdome",
+      logo_path: "react.png",
+      certificate_link: "",
+      alt_name: "TESTDOME",
+      // color_code: "#2AAFED",
+      color_code: "#8C151599",
     },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
+
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -387,116 +326,165 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
-  description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+  subtitle: "Work",
+  description: `Having 3.8+ years of experience in analysis, design, development, testing in Web Application development.
+    Strong debugging and problem-solving skill with excellent understanding of System Development Methodologies.`,
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
+          title: "Sr. Software Engineer",
+          company: "NEOSOFT TECHNOLOGIES.",
+          company_url: "https://www.neosofttech.com/",
+          logo_path: "neosoft.jpeg",
+          duration: "Dec 2019 - Present",
           location: "Office",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
+          description: (
+            <ul>
+              <li>
+                Skills: ReactJs, Redux, WebPack, React, Flux, Immutable JS, ES6,
+                Micro-Frontend, CSS, NPM, Agile methodology.
+              </li>
+              <li>Create responsive charts by using Highcharts.</li>
+              <li>
+                {" "}
+                Make use of Babel, in order to support multiple browsers,
+                implement cache functionality to avoid multiple api calls also
+                used Lazy Loading Mechanism for Widgets using React-Lazy &
+                Suspense, Webpack, Babel etc.{" "}
+              </li>
+              <li>
+                Used Redux and Redux-toolkit to maintain the data at central
+                level (Store).{" "}
+              </li>
+
+              <li>
+                {" "}
+                Published own modules like (super navbar) on NPM to use for
+                multiple application. Used babel, webpack & tsc (typescript) for
+                code Transpilation. So, it can be work for JavaScript(.js) as
+                well as TypeScript(.d.ts) projects.
+              </li>
+            </ul>
+          ),
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
+          title: "FIGmd INDIA PVT. LTD.",
+          company: "FIGmd",
+          company_url: "https://www.figmd.com/",
+          logo_path: "FIGmd.jpeg",
+          duration: "Jul 2018 - Dec 2019",
+          location: "Office",
+          description: (
+            <ul>
+              <li>
+                Skills:
+                Technologies:Reactjs,Redux,Nodejs(Express.js),Graphql,MaterialUI,Postgressql,Jest,
+                CSS, NPM, Agile methodology.
+              </li>
+              <li>
+                Developed Profile Based component in React to manage User
+                Profile. used ‘universal-cookie’ npm to managed Cookies and
+                Jwt-Token.
+              </li>
+              <li>
+                {" "}
+                Designed reusable user interface components in React and
+                JavaScript ES6; managed application state using Redux.
+              </li>
+              <li>
+                Used Redux and Redux-toolkit to maintain the data at central
+                level (Store).{" "}
+              </li>
+
+              <li>
+                {" "}
+                Utilized webpack4.0 performance feat feature such as lazy
+                loading, code splitting, improved performance by 30% and reduced
+                build size by 50% also used debouncing.
+              </li>
+            </ul>
+          ),
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
-          description:
-            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "Cross Winter of Code Mentor",
+    //       company: "CWOC",
+    //       company_url: "https://crosswoc.ieeedtu.in/",
+    //       logo_path: "cwoc.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Campus Hustler",
+    //       company: "Skillenza",
+    //       company_url: "https://skillenza.com/",
+    //       logo_path: "skillenza.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work from Home",
+    //       description:
+    //         "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
+    //       color: "#196acf",
+    //     },
+    //     {
+    //       title: "GitHub Student Developer",
+    //       company: "GitHub",
+    //       company_url: "https://github.com/",
+    //       logo_path: "github.png",
+    //       duration: "Nov 2019 - Present",
+    //       location: "Work from Home",
+    //       description:
+    //         "Contribute to Open Source Community and Open Source Project.",
+    //       color: "#040f26",
+    //     },
+    //     {
+    //       title: "Google Local Guide",
+    //       company: "Google Map",
+    //       company_url: "https://maps.google.com/localguides/",
+    //       logo_path: "localguide.png",
+    //       duration: "Sep 2018 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "GDG Student Volunteer",
+    //       company: "Google Developer Groups",
+    //       company_url: "https://gdg.community.dev/",
+    //       logo_path: "gdg.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Google Developer Group Surat Student Volunteer and Member.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "E. F. I. Student Volunteer",
+    //       company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "efi.png",
+    //       duration: "Apr 2017 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+    //       color: "#5a900f",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -512,15 +500,15 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "sagar-profile.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
 };

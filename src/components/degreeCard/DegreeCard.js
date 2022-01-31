@@ -75,7 +75,7 @@ function DegreeCard(props) {
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
+              marginLeft: "37px",
             }}
             src={require(`../../assests/images/${degree.logo_path}`).default}
             alt={degree.alt_name}
@@ -105,7 +105,11 @@ function DegreeCard(props) {
           <div className="body-content">
             {degree.descriptions.map((sentence, key) => {
               return (
-                <p className="content-list" style={{ color: theme.text }} key={key}>
+                <p
+                  className="content-list"
+                  style={{ color: theme.text }}
+                  key={key}
+                >
                   {sentence}
                 </p>
               );

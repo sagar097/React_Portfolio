@@ -282,7 +282,7 @@ const degrees = {
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, C, OOPs etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have implemented several projects based on what I've learn under my Computer Engineering course. ",
         "⚡ Secured 1st Rank in Departement",
       ],
       website_link: "https://www.mgmpoly.com/",
@@ -534,6 +534,10 @@ const projects = {
         {
           name: "React",
           iconifyClass: "logos-react",
+        },
+        {
+          name: "Flux",
+          iconifyClass: "logos-flux",
         },
         {
           name: "Redux",

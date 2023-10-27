@@ -328,19 +328,57 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work",
-  description: `Having 3.8+ years of experience in analysis, design, development, testing in Web Application development.
-    Strong debugging and problem-solving skill with excellent understanding of System Development Methodologies.`,
+  description: `Having 5+ years of experience in analysis, design, development, testing in Web Application development.
+    Strong debugging and problem-solving skills with an excellent understanding of System Development Methodologies.`,
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
+         {
+          title: "Sr. Software Engineer",
+          company: "SAAMA Technologies, Inc.",
+          company_url: "https://www.saama.com/",
+          logo_path: "saama.jpeg",
+          duration: "Jun 2022 - Present",
+          location: "Office",
+          description: (
+            <ul>
+              <li>
+                Skills: ReactJs, Redux, WebPack, React, Flux, Immutable JS, ES6,
+                Micro-Frontend, CSS, NPM, Agile methodology.
+              </li>
+              <li>Create responsive charts by using Highcharts.</li>
+              <li>
+                {" "}
+                Make use of Babel, in order to support multiple browsers,
+                implement cache functionality to avoid multiple api calls also
+                used Lazy Loading Mechanism for Widgets using React-Lazy &
+                Suspense, Webpack, Babel etc.{" "}
+              </li>
+              <li>
+                Used Redux and Redux-toolkit to maintain the data at central
+                level (Store).{" "}
+              </li>
+
+              <li>
+                {" "}
+                Published own modules like (super navbar) on NPM to use for
+                multiple application. Used babel, webpack & tsc (typescript) for
+                code Transpilation. So, it can be work for JavaScript(.js) as
+                well as TypeScript(.d.ts) projects.
+              </li>
+            </ul>
+          ),
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#0071C5",
+        },
         {
           title: "Sr. Software Engineer",
           company: "NEOSOFT TECHNOLOGIES.",
           company_url: "https://www.neosofttech.com/",
           logo_path: "neosoft.jpeg",
-          duration: "Dec 2019 - Present",
+          duration: "Dec 2019 - Jun 2022",
           location: "Office",
           description: (
             <ul>

@@ -339,7 +339,7 @@ const experience = {
           title: "Sr. Software Engineer",
           company: "SAAMA Technologies, Inc.",
           company_url: "https://www.saama.com/",
-          logo_path: "saama.jpeg",
+          logo_path: "saama.svg",
           duration: "Jun 2022 - Present",
           location: "Office",
           description: (

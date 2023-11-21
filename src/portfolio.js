@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Sagar Pawar",
   subTitle: "Software Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://docs.google.com/document/d/1j_UhtgJ52JwaOoBTqwRFuwdXnFCD03iBLRTCBZcCLaQ/edit?usp=sharing",
+    "https://drive.google.com/file/d/1Kh-5zOm5tUavVPbQNipbooAnFfmsf3Hm/view?usp=drive_link",
   mail: "mailto:spawar097@gmail.com",
 };
 
